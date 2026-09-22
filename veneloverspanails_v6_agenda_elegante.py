@@ -3,8 +3,7 @@ import sqlite3
 from datetime import date, datetime, timedelta
 import pandas as pd
 
-st.set_page_config(page_title="VeneLovers Spa Nails", page_icon="💅", layout="wide")
-
+st.set_page_config(page_title="VeneLovers Spa Nails", page_icon="Icono dorado de belleza con corazón y manicura.png", layout="wide")
 DB = "venelovers_v3.db"
 # Contraseña SOLO para esta prueba local. Antes de publicar se moverá a secretos seguros.
 ADMIN_PASSWORD = "venelovers2026"
