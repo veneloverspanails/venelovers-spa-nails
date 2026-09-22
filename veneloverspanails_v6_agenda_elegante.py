@@ -4,6 +4,10 @@ from datetime import date, datetime, timedelta
 import pandas as pd
 
 st.set_page_config(page_title="VeneLovers Spa Nails", page_icon="Icono dorado de belleza con corazón y manicura.png", layout="wide")
+st.markdown("""
+<link rel="apple-touch-icon" href="Icono dorado de belleza con corazón y manicura.png">
+<meta name="apple-mobile-web-app-title" content="VeneLovers">
+""", unsafe_allow_html=True)
 DB = "venelovers_v3.db"
 # Contraseña SOLO para esta prueba local. Antes de publicar se moverá a secretos seguros.
 ADMIN_PASSWORD = "venelovers2026"
